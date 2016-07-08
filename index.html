@@ -7,9 +7,47 @@
   <form>
     <fieldset>
       <legend>CREDENTIALS</legend>
+
       <label class="hidden" for="firstname">First Name</label>
+      <input type="text" required name="firstname" placeholder="first name" id="firstname"><br>
+
       <label class="hidden" for="middlename">Middle Name</label>
+      <input type="text" required name="middlename" placeholder="middlename" id="middlename">
+
       <label class="hidden" for="lastname">Last Name</label>
+      <input type="text" required name="lastname" placeholder="lastname" id="lastnmae">
+
+      <label class="hidden" for="address">Address</label>
+      <input type="text" required name="address" placeholder="123 Jerry Way" id="address">
+
+      <label class="hidden" for="job">Occupation</label>
+      <input type="text" required name="job" placeholder="what do you do?" id="job">
+
+      <label class="hidden" for="employer">Employer</label>
+      <input type="text" required name="employer" placeholder="Where do you work?" id="employer">
+
+      <label class="hidden" for="employer_address">Employer Address</label>
+      <input type="text" required name="employer_address" placeholder="Where do you work?" id="employer_address">
+
+      <label class="hidden" for="loantype">What type of Loan are you looking for?</label>
+
+      <label for="commercial">Commercial</label>
+      <input type="radio" name="loantype" id="commercial" value="commercial" />
+
+      <label for="real_estate">Real Estate</label>
+      <input type="radio" name="loantype" id="real_estate" value="real_estate" />
+
+      <label for="personal">Personal</label>
+      <input type="radio" name="loantype" id="personal" value="personal" />
+
+      <label for="mortgage">Mortgage</label>
+      <input type="radio" name="loantype" id="mortgage" value="mortgage" />
+
+
+      <label class="hidden" for="loan_amount">Amount of Loan</label>
+      <input type="number" min="100" max="100000000" required name="loan_amount" placeholder="How much do you need to borrow?" id="loan_amount">
+
+
     </fieldset>
   </form>
 </body>
